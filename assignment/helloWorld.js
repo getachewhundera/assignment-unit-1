@@ -13,7 +13,7 @@ let isCloudy = false;
 
 let toReplace= document.querySelector(#'fun2')
 // documnet refers to whole html documnet 
-// dom manipulaion. 
+// DOM manipulaion. 
 //quesryselector goes through documnet and "finds" what you provided it. try to stick to use only ids for more specific items 
 // the value of fun2 is being assighned to toReplace
 // conditionals often use booleans to define a vlue. 
@@ -25,4 +25,4 @@ if (isCloudy === false){
     console.log('rainy day');
 }
 
-//=== equal to and type meaing that it evaluates how the stament is written like is it a string or number and it evelautes and takes into account for it all. 
+//=== equal to and equal in type, meaning that it evaluates how the statement is written like is it a string or number and it eveluates and takes into account for it all. 

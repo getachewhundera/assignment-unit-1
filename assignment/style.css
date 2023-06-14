@@ -4,19 +4,20 @@ html{
 }
 
 /* Make the header and footer a different color from the background */
+header.top{
+    background-color: black; 
+}
 footer{
-    background-color: gray;
     margin-left: 250px; 
     margin-right: 250px;  
 }
-header{
-    background-color: black; 
+footer.bottom{
+    background-color: grey; 
 }
-
 /* Align the h1 containing your name in the center of the header*/
 header,h1{
     text-align: center; 
-    margin-top: 40px; 
+    margin-top: 50px; 
     color: white; 
 }
 /* Make your p tag a different color and italic */
@@ -31,14 +32,21 @@ footer,p{
 img{
     width: 300px; 
     height: 300px;
-    border: solid;  
-    border-style: white; 
-    border: 10px; 
+    border: solid 4px white;
+    display: block; 
+    margin: auto; 
+
 }
 
 /* Change the font-family of your list */
-ul li{ 
-    font-family: cursive;  
-    text-align: center; 
+ul{
+    list-style-position: inside; 
+}
 
+ul li{ 
+    font-family: cursive; 
+    text-align: left; 
+    margin-left: 41%; 
+     
+    
 }
