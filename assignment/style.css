@@ -11,7 +11,7 @@ footer{
     margin-left: 250px; 
     margin-right: 250px;  
 }
-footer.bottom{
+section.bottom{
     background-color: grey; 
 }
 /* Align the h1 containing your name in the center of the header*/
@@ -23,6 +23,8 @@ header,h1{
 /* Make your p tag a different color and italic */
 footer,p{
     text-emphasis-color: black;
+    font-style: italic; 
+    font-size: 20px; 
     margin: center;
     margin-left: 250px; 
     margin-right: 250px;  
@@ -32,7 +34,7 @@ footer,p{
 img{
     width: 300px; 
     height: 300px;
-    border: solid 4px white;
+    border: solid 3px white;
     display: block; 
     margin: auto; 
 
@@ -41,6 +43,7 @@ img{
 /* Change the font-family of your list */
 ul{
     list-style-position: inside; 
+    font-style: 40px;
 }
 
 ul li{ 
